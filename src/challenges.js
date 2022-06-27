@@ -16,9 +16,12 @@ compareTrue(um, dois)
 
 // Desafio 2
 
-function calcArea(base, height) 
+function calcArea(base, height) {
 
+let valorArea = (base * height) / 2
+return valorArea
 
+}
 
 // Desafio 3
 function splitSentence() {
