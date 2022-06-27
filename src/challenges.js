@@ -45,10 +45,22 @@ return quantidadePontos
 
 // Desafio 6
 function highestCount(arrayDeNumeros) {
- let repetições = 0
+ let r = 0
 
- let maiorNumero = arrayDeNumeros.mathmax
-}
+ let maiorNumero = Math.max.apply(null, arrayDeNumeros)
+
+ for (let index = 0; index < arrayDeNumeros.length; index += 1) {
+  if (maiorNumero < arrayDeNumeros[index]){
+    maiorNumero = arrayDeNumeros[index]
+  } else if (maiorNumero === arrayDeNumeros[index]){
+    r++
+  }
+
+  }
+  return r++
+  }
+ 
+
 
 // Desafio 7
 function catAndMouse() {
