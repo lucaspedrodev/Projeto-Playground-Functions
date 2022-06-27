@@ -4,15 +4,14 @@ const um = true;
 const dois = true;
 const tres = false;
 
-function compareTrue (param1, param2) 
+function compareTrue (param1, param2) {
 if (param1 === true && param2 === true) { 
   return true;  
 } else {
   return false;
 }
-
+}
 compareTrue(um, dois)
-
 
 // Desafio 2
 
@@ -20,7 +19,6 @@ function calcArea(base, height) {
 
 let valorArea = (base * height) / 2
 return valorArea
-
 }
 
 // Desafio 3
