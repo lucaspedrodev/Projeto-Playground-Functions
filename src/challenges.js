@@ -29,9 +29,8 @@ function splitSentence(param1) {
 
 // Desafio 4
 function concatName(array) {
-let teste = array
-
-return array.length-1, array[0]
+let teste = array[array.length-1] + ', ' + array[0];
+return teste
 }
 
 
@@ -48,7 +47,7 @@ return quantidadePontos
 function highestCount(arrayDeNumeros) {
  let repetições = 0
 
- let maiorNumero = arrayDeNumeros.math()
+ let maiorNumero = arrayDeNumeros.mathmax
 }
 
 // Desafio 7
