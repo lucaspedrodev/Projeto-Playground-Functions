@@ -23,7 +23,7 @@ function calcArea(base, height) {
 
 // Desafio 3
 function splitSentence(param1) {
-  let resultado = param1.split('');
+  let resultado = param1.split(' ');
   return resultado;
 }
 
@@ -31,22 +31,24 @@ function splitSentence(param1) {
 function concatName(array) {
 let teste = array
 
-return teste.length, teste[0]
+return array.length-1, array[0]
 }
 
 
-// Desafio 5
+// Desafio 5 FEITO
 function footballPoints(w, t) {
 let win = 3
 let tie = 1
-
+                                            
 let quantidadePontos = win * w + tie * t 
 return quantidadePontos
 }
 
 // Desafio 6
-function highestCount() {
-  // seu código aqui
+function highestCount(arrayDeNumeros) {
+ let repetições = 0
+
+ let maiorNumero = arrayDeNumeros.math()
 }
 
 // Desafio 7
