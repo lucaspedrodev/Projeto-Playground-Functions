@@ -59,8 +59,19 @@ function highestCount(arrayDeNumeros) {
  
 
 // Desafio 7
-function catAndMouse() {
-git   
+function catAndMouse(mouse, cat1, cat2) {
+  let poscat1 = Math.abs(mouse - cat1);
+  let poscat2 = Math.abs(mouse - cat2);
+
+  if (poscat1 < poscat2) {
+    return 'cat1'
+  } else if (poscat2 < poscat1) {
+    return 'cat2'
+  } else if (poscat1 === poscat2) {
+    return 'os gatos trombam e o rato foge'
+  }
+
+  
 }
 
 // Desafio 8
