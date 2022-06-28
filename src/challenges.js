@@ -50,9 +50,7 @@ function highestCount(arrayDeNumeros) {
  let maiorNumero = Math.max.apply(null, arrayDeNumeros)
 
  for (let index = 0; index < arrayDeNumeros.length; index += 1) {
-  if (maiorNumero < arrayDeNumeros[index]){
-    maiorNumero = arrayDeNumeros[index]
-  } else if (maiorNumero === arrayDeNumeros[index]){
+  if (maiorNumero === arrayDeNumeros[index]){
     r++
   }
   }
@@ -61,16 +59,8 @@ function highestCount(arrayDeNumeros) {
  
 
 // Desafio 7
-function catAndMouse(mouse, cat1, cat2) {
-
-  if (cat2 > mouse && mouse < cat1) {
-    return 'cat1'
-  } else if(cat1 > mouse && mouse < cat2){
-    return 'cat2'
-  }else (cat1 === mouse && cat2 === mouse) {
-    return 'os gatos trombam e o rato foge'
-  }
-   
+function catAndMouse() {
+git   
 }
 
 // Desafio 8
